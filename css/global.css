@@ -1,0 +1,130 @@
+div#content {
+	width: 100%;
+}
+
+* {
+	font-family: "Arial", arial, sans-serif;
+	
+}
+
+h1 {
+	
+}
+
+p, ul, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div.som-popup-overlay {
+	background: black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+
+div.som-popup-box {
+	background: white;
+	box-shadow: 0px 2px 5px gray;
+	-moz-box-shadow: 0px 2px 5px gray;
+	-webkit-box-shadow: 0px 2px 5px gray;
+	box-shadow: 0px 2px 5px gray;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='gray')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='gray');
+}
+
+.som-popup-box {
+	padding: 5px;
+	border: 2px solid black;
+	
+}
+.som-popup-box .som-popup-cross {
+	float: right;
+}
+
+.som-popup-box input[type=text] {
+	width: 99%;
+	/*border: 2px solid gray;*/
+}
+
+div.som-popup-box div.som-popup-main div.som-popup-wide:first-of-type {
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+.button {
+	/*
+	text-decoration: none;
+	text-align: center;
+	color:black;
+	
+	display: inline-block;
+	padding: 5px 10px;
+	min-width: 50px;
+	height: 20px;
+	line-height: 20px;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	
+	background: linear-gradient(rgb(234, 224, 194) 5%, rgb(204, 194, 166) 100%) rgb(234, 224, 194);
+	*/
+	display: inline-block;
+	font: 10pt Arial;
+	text-decoration: none;
+	background-color: #EEEEEE;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+a.button:hover {
+	background: linear-gradient(rgb(204, 194, 166) 5%, rgb(234, 224, 194) 100%) rgb(204, 194, 166);
+}
+
+a.button:focus {
+	outline: 0;
+	-moz-box-shadow: 0px 0px 3pt 2pt #f1ca7e;
+    -webkit-box-shadow: 0px 0px 3pt 2pt #f1ca7e;
+    box-shadow: 0px 0px 3pt 2pt #f1ca7e;
+}
+
+
+.som-popup-box p.align-right {
+	text-align: right;
+}
+
+/* System */
+
+body.mobile .som-popup-box {
+	width: 100% !important;
+	position: absolute !important;
+	left:0 !important;
+	top:0 !important;
+	margin:0 !important;
+}
+
+iframe.som-ajax-receiver {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	left:-10px;
+	top:-10px;
+}

@@ -1,0 +1,5 @@
+https://github.com/douglascrockford/JSON-js
+https://github.com/jquery/jquery
+https://github.com/bramstein/jsizes
+https://github.com/flesler/jquery.scrollTo
+https://github.com/benpickles/onScreen
