@@ -1,0 +1,9 @@
+{
+  "parser": "espree",
+  "ecmaFeatures": {},
+  "env": {
+    "browser": true,
+    "jquery": true
+  },
+  "extends": ["defaults/configurations/google"]
+}
